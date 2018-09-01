@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/service/service",
+    "pages/technology/technology",
+    "pages/employee/employee"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "最佳盒伙人",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "部门介绍"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志"
+      },
+      {
+        "pagePath": "pages/service/service",
+        "text": "业务介绍"
+      },
+      {
+        "pagePath": "pages/technology/technology",
+        "text": "技术介绍"
+      },
+      {
+        "pagePath": "pages/employee/employee",
+        "text": "新员工"
+      }
+    ],
+    "color": "#0042b2",
+    "borderStyle": "black"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "",
+      "text": "text",
+      "iconPath": "iconPath",
+      "selectedIconPath": "selectedIconPath"
+    }]
+  },
+  "debug": true
+}
